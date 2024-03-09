@@ -1,3 +1,7 @@
+document.getElementById('refreshButton').addEventListener('click', function() {
+    location.reload();
+});
+
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 var randomDiceImage = "dice" + randomNumber1 + ".png";
