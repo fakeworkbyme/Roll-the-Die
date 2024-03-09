@@ -22,6 +22,15 @@ h1 {
   color: #4ECCA3;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
 p {
   font-size: 2rem;
   color: #4ECCA3;
@@ -32,6 +41,12 @@ img {
   width: 80%;
 }
 
+#buttonNew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
@@ -39,3 +54,49 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+#refreshButton {
+  padding: 15px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #7b4397, #dc2430);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#refreshButton:hover {
+  background: linear-gradient(45deg, #ff0084, #33001b);
+  transform: translateY(-3px);
+}
+
+#refreshButton:active {
+  background: linear-gradient(45deg, #ff0084, #33001b);
+  transform: translateY(1px);
+
+#span {
+  padding: 50px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .dice {
+    margin: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-top: 20px;
+  }
+
+  .dice {
+    margin: 10px;
+  }
+}
+
